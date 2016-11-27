@@ -11,5 +11,5 @@ checkpoint::setSnapshot('2015-10-31')
 # Install devtools and teaplots
 
 install.packages("devtools", repos="https://cloud.r-project.org/")
-devtools::install_github("ivyleavedtoadflax/teaplots")
+#devtools::install_github("ivyleavedtoadflax/teaplots")
 

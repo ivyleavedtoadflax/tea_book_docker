@@ -36,6 +36,6 @@ COPY ./setup.R /tea_book/
 
 # Run setup in R to install required packages
 
-#RUN chmod +x setup.R \ 
-#    && Rscript setup.R
+RUN chmod +x setup.R \ 
+    && Rscript setup.R
 
